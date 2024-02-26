@@ -15,9 +15,15 @@ account_sid = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 auth_token  = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 client = Client(account_sid, auth_token)
 ```
- <img src="https://cdn.discordapp.com/attachments/1046824853015113789/1205394190901444638/image.png?ex=65d835d2&is=65c5c0d2&hm=1a0756d8324218c7f1d478e1053b537c8de8b50e43a8e18a31922180c0c4edcc&" alt="">
 
- 
+ <div align="center">
+<img src="https://github.com/lucasmargui/Python_Vendas_Notificacao_Sms/assets/157809964/348e4054-d246-4cd7-a5e6-a2c805e8bbcc" style="width:100%">
+</div>
+
+
+
+
+
 
 
  ### From
@@ -30,4 +36,7 @@ client = Client(account_sid, auth_token)
             body=f'No mês {mes} alguém bateu a meta. Vendedor: {vendedor}, Vendas: {vendas}')
 ```
 
- <img src="https://cdn.discordapp.com/attachments/1046824853015113789/1205394519143485480/image.png?ex=65d83620&is=65c5c120&hm=20fb5dda46c77cd53791b64ef24cf583d9fa098c35aa77124fcbc8b6fa3d4afb&" alt="">   
+ <div align="center">
+<img src="https://github.com/lucasmargui/Python_Vendas_Notificacao_Sms/assets/157809964/6bfc113f-e0d7-4b5f-a6ca-3e6be255249f" style="width:100%">
+</div>
+
