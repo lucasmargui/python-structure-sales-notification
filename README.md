@@ -1,18 +1,18 @@
-<H1 align="center">Vendas Notificação</H1>
-<p align="center">🚀 Projeto de criação de uma estrutura de notificação via sms para referências futuras</p>
+<H1 align="center">Sales Notification</H1>
+<p align="center">🚀 Project to create a notification structure via SMS for future references</p>
 
-## Recursos Utilizados
+## Resources Used
 
 * Pandas
 * Twilio
 * Python 3.10
 
  ## Twilio
-  Utilização das credencias para conexão com API
+ Using credentials to connect to API
 
 ```
 account_sid = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-auth_token  = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+auth_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 client = Client(account_sid, auth_token)
 ```
 
@@ -21,22 +21,16 @@ client = Client(account_sid, auth_token)
 </div>
 
 
-
-
-
-
-
  ### From
 
- Utilização de um numero comprado que será responsável para enviar o SMS para o destinatário
+ Using a purchased number that will be responsible for sending the SMS to the recipient
 ```
-  message = client.messages.create(
-            to="+55xxxxxxxxxxxxxxx",
-            from_="xxxxxxxxxxxxxxxx",
-            body=f'No mês {mes} alguém bateu a meta. Vendedor: {vendedor}, Vendas: {vendas}')
+ message = client.messages.create(
+ to="+55xxxxxxxxxxxxxxx",
+ from_="xxxxxxxxxxxxxxx",
+ body=f'In the month {mes} someone reached the goal. Seller: {seller}, Sales: {sales}')
 ```
 
  <div align="center">
 <img src="https://github.com/lucasmargui/Python_Vendas_Notificacao_Sms/assets/157809964/6bfc113f-e0d7-4b5f-a6ca-3e6be255249f" style="width:100%">
 </div>
-
